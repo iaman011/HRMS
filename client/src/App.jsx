@@ -265,7 +265,7 @@ export default function App() {
             <input placeholder="Email" value={(editingEmployee ? editingEmployee.email : newEmployee.email) || ''} onChange={e => editingEmployee ? setEditingEmployee({ ...editingEmployee, email: e.target.value }) : setNewEmployee({ ...newEmployee, email: e.target.value })} style={{ width: '100%', marginBottom: 6 }} />
             <input placeholder="Position" value={(editingEmployee ? editingEmployee.position : newEmployee.position) || ''} onChange={e => editingEmployee ? setEditingEmployee({ ...editingEmployee, position: e.target.value }) : setNewEmployee({ ...newEmployee, position: e.target.value })} style={{ width: '100%', marginBottom: 6 }} />
             <div style={{ marginBottom: 6 }}>
-              <label>Teams (hold ctrl/cmd to multi-select)</label>
+              <label>Teams</label>
               <select multiple value={(editingEmployee ? editingEmployee.teamIds : newEmployee.teamIds) || []} onChange={e => {
                 const vals = Array.from(e.target.selectedOptions).map(o => Number(o.value))
                 editingEmployee ? setEditingEmployee({ ...editingEmployee, teamIds: vals }) : setNewEmployee({ ...newEmployee, teamIds: vals })
@@ -299,7 +299,7 @@ export default function App() {
             <h4>{editingTeam ? 'Edit Team' : 'Add Team'}</h4>
             <input placeholder="Team name" value={(editingTeam ? editingTeam.name : newTeam.name) || ''} onChange={e => editingTeam ? setEditingTeam({ ...editingTeam, name: e.target.value }) : setNewTeam({ ...newTeam, name: e.target.value })} style={{ width: '100%', marginBottom: 6 }} />
             <div style={{ marginBottom: 6 }}>
-              <label>Members (hold ctrl/cmd to multi-select)</label>
+              <label>Members</label>
               <select multiple value={(editingTeam ? editingTeam.employeeIds : []) || []} onChange={e => {
                 const vals = Array.from(e.target.selectedOptions).map(o => Number(o.value))
                 editingTeam ? setEditingTeam({ ...editingTeam, employeeIds: vals }) : null
