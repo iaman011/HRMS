@@ -1,0 +1,6 @@
+[2025-11-13T07:00:42.579Z] User '1' created_organization - User 'aman' created organization 'abcd'
+[2025-11-13T07:01:03.606Z] User '1' logged_in - User '1' logged in.
+[2025-11-13T07:25:00.330Z] User '2' created_organization - User 'aman' created organization 'Abcd'
+[2025-11-13T07:25:16.598Z] User '1' logged_in - User '1' logged in.
+[2025-11-13T07:25:51.074Z] User '1' added_employee - Added employee 1
+[2025-11-13T07:26:08.294Z] User '1' added_team - Added team 1
