@@ -166,6 +166,7 @@ export default function App() {
                 <label>Username</label>
                 <input 
                   style={{ width: '100%', padding: 8, marginTop: 4 }}
+                  autoComplete="username"
                   value={form.username} 
                   onChange={e => setForm({ ...form, username: e.target.value })} 
                   placeholder="Your username"
@@ -176,6 +177,7 @@ export default function App() {
                 <input 
                   style={{ width: '100%', padding: 8, marginTop: 4 }}
                   type="email"
+                  autoComplete="email"
                   value={form.email} 
                   onChange={e => setForm({ ...form, email: e.target.value })} 
                   placeholder="your@email.com"
@@ -186,6 +188,7 @@ export default function App() {
                 <input 
                   style={{ width: '100%', padding: 8, marginTop: 4 }}
                   type="password" 
+                  autoComplete="new-password"
                   value={form.password} 
                   onChange={e => setForm({ ...form, password: e.target.value })} 
                   placeholder="Your password"
@@ -204,6 +207,7 @@ export default function App() {
                 <input 
                   style={{ width: '100%', padding: 8, marginTop: 4 }}
                   type="email"
+                  autoComplete="email"
                   value={form.email} 
                   onChange={e => setForm({ ...form, email: e.target.value })} 
                   placeholder="your@email.com"
@@ -214,6 +218,7 @@ export default function App() {
                 <input 
                   style={{ width: '100%', padding: 8, marginTop: 4 }}
                   type="password" 
+                  autoComplete="current-password"
                   value={form.password} 
                   onChange={e => setForm({ ...form, password: e.target.value })} 
                   placeholder="Your password"

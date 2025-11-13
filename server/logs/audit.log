@@ -1,6 +1,18 @@
-[2025-11-13T07:00:42.579Z] User '1' created_organization - User 'aman' created organization 'abcd'
-[2025-11-13T07:01:03.606Z] User '1' logged_in - User '1' logged in.
-[2025-11-13T07:25:00.330Z] User '2' created_organization - User 'aman' created organization 'Abcd'
-[2025-11-13T07:25:16.598Z] User '1' logged_in - User '1' logged in.
-[2025-11-13T07:25:51.074Z] User '1' added_employee - Added employee 1
-[2025-11-13T07:26:08.294Z] User '1' added_team - Added team 1
+
+[2025-11-13T07:00:42.579Z] User '1' created organization 'abcd'.
+[2025-11-13T07:01:03.606Z] User '1' logged in.
+[2025-11-13T07:25:00.330Z] User '2' created organization 'Abcd'.
+[2025-11-13T07:25:16.598Z] User '1' logged in.
+[2025-11-13T07:25:51.074Z] User '1' added a new employee with ID 1.
+[2025-11-13T07:26:08.294Z] User '1' added a new team with ID 1.
+[2025-11-13T12:45:39.558Z] User '3' created organization 'qkfhi'.
+[2025-11-13T12:46:07.479Z] User '3' logged in.
+[2025-11-13T12:47:01.165Z] User '3' added a new team with ID 2.
+[2025-11-13T12:47:02.778Z] User '3' added a new employee with ID 2.
+[2025-11-13T12:47:20.696Z] User '3' deleted team 2.
+[2025-11-13T12:51:00.859Z] User '3' added a new employee with ID 3.
+[2025-11-13T12:56:30.683Z] User '3' added a new employee with ID 4.
+[2025-11-13T13:00:45.508Z] User '3' added a new team with ID 3.
+[2025-11-13T13:01:19.877Z] User '3' added a new employee with ID 5.
+[2025-11-13T13:05:06.895Z] User '3' added_employee - Added employee 6
+[2025-11-13T13:08:05.583Z] User '3' added_employee - Added employee 7
